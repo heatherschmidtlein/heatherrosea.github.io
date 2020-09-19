@@ -1,0 +1,99 @@
+/** fonts **/
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@700&display=swap');
+
+
+body {
+  background-color: #E0CCD0;
+}
+
+header {
+    background-color: #F7F3F4;
+    padding: 5px;
+  	border-radius: 10px; 
+    position: fixed;
+    top: 15px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+h1 {
+  color: #875A65;
+  font-size: 3.5em;
+  font-family: 'Libre Caslon Text', serif;
+  font-weight:bold;
+  margin-left: 10%;
+}
+
+h2 {
+  font-family: 'Libre Caslon Text', serif;
+  font-style: italic;
+  font-size: 1.8em;
+  color: #875A65;
+}
+
+hr {
+  width: 90%;
+  border: 1px solid #F7F3F4;
+  margin-left: 0px;
+}
+
+img {
+  position: fixed;
+  width: 330px;
+  top: 50px;
+  right: 15%;
+  box-shadow: 10px 10px 5px rgb(165, 131, 131);
+}
+
+#content {
+  padding-top: 200px;
+  text-align: justify;
+  margin-left: 10%;
+}
+
+#links {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  color: #312025;
+ 
+}
+
+nav a:link {
+    color: #875A65;
+}
+
+nav a:visited {
+    color: #312025;
+}
+
+ul {
+  list-style: none;
+}
+
+footer {
+  background-color: #F7F3F4;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1em;
+  text-align: center;
+  color: #6E4952;
+  padding: 15px 5px 15px;
+  border-radius: 10px; 
+  position: fixed;
+  bottom: 15px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+footer a:link {
+    color: #875A65;
+}
+
+footer a:visited {
+    color: #A67785;
+}
+
+
