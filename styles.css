@@ -8,17 +8,17 @@
 
 body {
   background-color: #E0CCD0;
-  max-width: 1200px;
-  margin: auto;
+  max-width: 1300px;
+
 }
 
 header {
     background-color: #F7F3F4;
     padding: 5px;
   	border-radius: 10px; 
-    top: 15px;
-    width: 80%;
-    margin-left: 10%;
+    width: 90%;
+    margin-left: 13%;
+    
 }
 
 h1 {
@@ -37,20 +37,25 @@ h2 {
 }
 
 hr {
-  width: 90%;
+
   border: 1px solid #F7F3F4;
   margin-left: 0px;
 }
 
+
 img {
+
+  max-width: 250px;
   float: right;
-  max-width: 300px;
   box-shadow: 10px 10px 5px rgb(165, 131, 131);
+  margin-top: 5%;
+
 }
 
 #content {
   text-align: justify;
-  margin-left: 10%;
+  margin-top: 5%;
+  margin-left: 13%;
 }
 
 #links {
@@ -80,10 +85,9 @@ footer {
   color: #6E4952;
   padding: 15px 5px 15px;
   border-radius: 10px; 
-  position: fixed;
-  bottom: 15px;
-  width: 80%;
-  margin-left: 10%;
+  width: 90%;
+  margin-left: 13%;
+  margin-top: 20%;
 }
 
 footer a:link {
