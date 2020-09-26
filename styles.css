@@ -8,6 +8,8 @@
 
 body {
   background-color: #E0CCD0;
+  max-width: 1200px;
+  margin: auto;
 }
 
 header {
