@@ -8,7 +8,7 @@
 
 body {
   background-color: #E0CCD0;
-  max-width: 1300px;
+  max-width: 98%;
 
 }
 
@@ -16,9 +16,7 @@ header {
     background-color: #F7F3F4;
     padding: 5px;
   	border-radius: 10px; 
-    width: 90%;
-    margin-left: 13%;
-    
+    width: 100%;
 }
 
 h1 {
@@ -49,6 +47,7 @@ img {
   float: right;
   box-shadow: 10px 10px 5px rgb(165, 131, 131);
   margin-top: 5%;
+  margin-right: 10%;
 
 }
 
@@ -85,9 +84,9 @@ footer {
   color: #6E4952;
   padding: 15px 5px 15px;
   border-radius: 10px; 
-  width: 90%;
-  margin-left: 13%;
+  width: 100%;
   margin-top: 20%;
+  
 }
 
 footer a:link {
