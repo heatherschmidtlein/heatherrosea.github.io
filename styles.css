@@ -41,8 +41,10 @@ hr {
 }
 
 img {
-  margin: 10px;
+  position: fixed;
   width: 330px;
+  top: 50px;
+  right: 15%;
   box-shadow: 10px 10px 5px rgb(165, 131, 131);
 }
 
