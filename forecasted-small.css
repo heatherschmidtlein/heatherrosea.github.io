@@ -72,13 +72,12 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
+
 main {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1.2em;
     padding: 2.2em 1em 2.2em;
-  
-  
 }
 
 section {
@@ -91,6 +90,12 @@ section {
 nav a:hover {
     color: #C0D6DF;
 }
+
+hr {
+  width: 70%;
+  border: 2px solid #4F6D7A;
+}
+
 
 img {
   display: block;
