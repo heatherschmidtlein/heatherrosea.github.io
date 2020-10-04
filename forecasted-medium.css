@@ -1,0 +1,13 @@
+/* Tablet Views ******************************/
+@media only screen and (max-width: 37.5em) {
+
+    nav a { 
+        display: flex;
+justify-content: center;
+
+    }
+    
+    nav a { 
+        flex: 1 1 100%; 
+    }
+}
