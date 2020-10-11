@@ -1,0 +1,23 @@
+  /* Desktop Views ****************************/
+@media only screen and (min-width: 60em) {
+	nav a {
+		font-size: 1.1rem;
+   
+	}
+	main {
+		grid-template-columns: 1fr;
+	}
+nav {
+  padding-bottom: 3%;
+  overflow: hidden;
+}
+
+nav a {
+  color: #4F6D7A;
+  text-decoration: none;
+  padding: 1%;
+  font-size: 1rem;
+
+}
+  }
+
