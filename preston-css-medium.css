@@ -1,0 +1,39 @@
+/* Tablet Views ******************************/
+@media only screen and (max-width: 37.5em) {
+
+nav {
+    margin-right: 8%;
+}
+
+.navigation {
+    list-style: none;
+    margin-bottom: 2%;
+
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+    color: #4F6D7A;
+}
+
+.navigation a:active {
+    color: #4F6D7A;
+}
+  
+  
+  #catchphrase {
+    font-size: 1.3rem;
+    padding: 0;
+    
+}
