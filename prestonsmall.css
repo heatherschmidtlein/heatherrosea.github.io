@@ -1,0 +1,219 @@
+/** fonts **/
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+
+
+
+#hero-img {
+  width: 100%;
+}
+
+
+#weather-summary {
+  
+}
+
+
+
+body {
+  background-color: #C0D6DF;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  color: #4F6D7A;
+  margin: 0 auto;
+  background: #F5F5F5;
+  display: flex;
+	flex-flow: column;
+	justify-content: center;
+
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 5em;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-weight:bold;
+  text-align: center;
+  color: #4F6D7A;
+}
+
+#catchphrase {
+  color: #EAA821;
+  padding: 0;
+  font-size: 1.6rem;
+  font-family: 'Pathway Gothic One', sans-serif;
+  
+}
+
+nav ul {
+  list-style: none;
+
+}
+
+.navigation a {
+    display: block;
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+    color: #4F6D7A;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h2, h3 {
+  font-family: 'Pathway Gothic One', sans-serif;
+  color: #EAA821;
+  text-align: center;
+  font-weight: bold;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 3%;
+  text-align: center;
+  color: #4F6D7A;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1.2em;
+    padding: 2.2em 1em 2.2em;
+  
+  
+}
+
+section {
+  background-color: #F5F5F5;
+  width: 100%;
+  border-radius: 10px; 
+}
+
+
+nav a:hover {
+    color: #EAA821;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+hr {
+  width: 70%;
+  border: 2px solid #4F6D7A;
+}
+
+
+footer {
+  background-color: #F5F5F5;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1em;
+  text-align: center;
+  color: #4F6D7A;
+  padding: 15px 5px 15px;
+  width: 100%;
+  position: absolute;
+  
+}
+
+footer a {
+    color: #EAA821;
+}
+
+footer a:hover {
+    color: #C0D6DF;
+}
+
+/* Tablet Views ******************************/
+@media only screen and (max-width: 37.5em) {
+
+nav {
+    margin-right: 8%;
+}
+
+.navigation {
+    list-style: none;
+    margin-bottom: 2%;
+
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+    color: #4F6D7A;
+}
+
+.navigation a:active {
+    color: #4F6D7A;
+}
+  
+  
+  #catchphrase {
+    font-size: 1.3rem;
+    padding: 0;
+    
+}
+  
+  /* Desktop Views ****************************/
+@media only screen and (min-width: 60em) {
+	nav a {
+		font-size: 1.1rem;
+   
+	}
+	main {
+		grid-template-columns: 1fr;
+	}
+nav {
+  padding-bottom: 3%;
+  overflow: hidden;
+}
+
+nav a {
+  color: #4F6D7A;
+  text-decoration: none;
+  padding: 1%;
+  font-size: 1rem;
+
+}
+  }
+
