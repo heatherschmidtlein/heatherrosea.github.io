@@ -6,16 +6,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
 
 
+  
+.map {
+  margin-bottom: 5%;
+  margin-left: 5%;
+}
+
+
+#article-img {
+  width: 100%;
+}
+
+#preston-snow {
+  width: 50%;
+
+}
+
+
+
+
+table, th, td {
+        width 100%;
+        border: 3px solid #C0D6DF;
+        border-radius: 10px;
+        border-collapse: collapse;
+        padding: 2%;
+        color: #4F6D7A;
+        text-align: center;
+    }
+
+    td img {
+        width: 80%;
+    }
+
+
+
 
 #hero-img {
   width: 100%;
 }
 
 
+main {
+  max-width:98%;
+  margin:0 auto;
+}
+
+
+.herodiv {
+  margin: 10px auto;
+  position: relative;
+}
+
+h1, h2, p {
+  margin: 0;
+}
+
+.stats {
+	position: absolute;
+	top: 35px;
+	left: 50px;
+	background: rgba(192, 214, 223, 0.87);
+  border-radius: 10px;
+	padding: 2rem;
+	box-shadow: 0 0 10px #111;
+  width: 25%;
+}
+
+
+
 #weather-summary {
   
 }
 
+#ws-h1 {
+color: #4F6D7A;
+  
+}
+
+.stats {
+
+}
 
 
 body {
@@ -81,7 +152,6 @@ h2 {
 h2, h3 {
   font-family: 'Pathway Gothic One', sans-serif;
   color: #EAA821;
-  text-align: center;
   font-weight: bold;
   max-width: 50%;
   margin-left: auto;
@@ -95,7 +165,6 @@ h3 {
 p {
   font-family: 'Open Sans', sans-serif;
   padding-bottom: 3%;
-  text-align: center;
   color: #4F6D7A;
   max-width: 50%;
   margin-left: auto;
