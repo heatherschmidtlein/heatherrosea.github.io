@@ -1,13 +1,13 @@
+
 /* Tablet Views ******************************/
 @media only screen and (max-width: 37.5em) {
+ .menu {
 
-nav {
-    margin-right: 8%;
 }
+  
 
 .navigation {
     list-style: none;
-    margin-bottom: 2%;
 
 }
 
@@ -17,7 +17,9 @@ nav {
 
 .navigation li {
     display: none;
+    margin-right: 9%;
 }
+  
 
 .navigation a {
     display: block;
@@ -36,4 +38,18 @@ nav {
     font-size: 1.3rem;
     padding: 0;
     
+}
+  
+.responsive li {
+	display: block;
+}
+  
+}
+  
+/* Tablet Views ******************************/
+@media only screen and (min-width: 37.5em) {
+ .menu {
+  margin-right: 8%;
+   display: none !important;
+} 
 }
