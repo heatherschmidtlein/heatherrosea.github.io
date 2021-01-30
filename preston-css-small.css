@@ -6,6 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
 
 
+
 body {
   background-color: #C0D6DF;
   font-family: 'Open Sans', sans-serif;
@@ -49,9 +50,17 @@ h1 {
   
 }
 
+	main {
+		grid-template-columns: 1fr;
+	}
+
 nav ul {
   list-style: none;
 
+}
+
+nav a:hover {
+    color: #EAA821;
 }
 
 .navigation a {
@@ -62,6 +71,24 @@ nav ul {
     color: #4F6D7A;
 }
 
+
+nav {
+  background-color: #FCF0DA;
+   overflow: hidden;
+}
+
+nav a {
+  color: #4F6D7A;
+  text-decoration: none;
+  padding: 1%;
+  font-size: 1.1 rem;
+
+}
+
+li {
+  display: inline-block;
+  padding: 1%;
+}
 h2 {
   font-size: 2.5em;
 }
@@ -94,8 +121,6 @@ main {
     grid-template-columns: 1fr;
     grid-gap: 1.2em;
     padding: 2.2em 1em 2.2em;
-  
-  
 }
 
 section {
@@ -105,9 +130,6 @@ section {
 }
 
 
-nav a:hover {
-    color: #EAA821;
-}
 
 img {
   display: block;
@@ -141,5 +163,4 @@ footer a {
 footer a:hover {
     color: #C0D6DF;
 }
-
 
