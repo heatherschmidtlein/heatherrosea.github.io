@@ -1,6 +1,12 @@
   /* Desktop Views ****************************/
 @media only screen and (min-width: 60em) {
-	nav a {
+ 
+.menu {
+    display: none !important;
+  }
+  
+  
+  nav a {
 		font-size: 1.1rem;
    
 	}
@@ -8,7 +14,6 @@
 		grid-template-columns: 1fr;
 	}
 nav {
-  padding-bottom: 3%;
   overflow: hidden;
 }
 
@@ -19,5 +24,13 @@ nav a {
   font-size: 1rem;
 
 }
+
+li {
+  display: inline-block;
+  padding: 1%;
+}
+  
+  
   }
+
 
