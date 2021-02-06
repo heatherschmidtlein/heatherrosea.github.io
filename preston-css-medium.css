@@ -1,4 +1,3 @@
-
 /* Tablet Views ******************************/
 @media only screen and (max-width: 37.5em) {
  .menu {
@@ -27,6 +26,7 @@
     text-align: center;
     text-decoration: none;
     color: #4F6D7A;
+    
 }
 
 .navigation a:active {
@@ -44,6 +44,8 @@
 	display: block;
 }
   
+
+  
 }
   
 /* Tablet Views ******************************/
@@ -52,4 +54,12 @@
   margin-right: 8%;
    display: none !important;
 } 
+  
+    
+  nav a {
+    width: 50px;
+    font-size: 0.9rem;
+    margin-right: 20px;
+  }
+
 }
