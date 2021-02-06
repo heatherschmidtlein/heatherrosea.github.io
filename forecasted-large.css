@@ -1,23 +1,42 @@
+
   /* Desktop Views ****************************/
-  @media only screen and (min-width: 60em) {
-	nav a {
+@media only screen and (min-width: 60em) {
+ 
+.menu {
+    display: none !important;
+  }
+  
+  
+  nav a {
 		font-size: 1.1rem;
+    width: 50px;
 	}
 	main {
 		grid-template-columns: 1fr;
 	}
 nav {
-  margin-bottom:%;
-  padding-bottom: 3%;
   overflow: hidden;
+ 
 }
 
 nav a {
-  color: #EAA821;
+  color: #4F6D7A;
   text-decoration: none;
   padding: 1%;
   font-size: 1rem;
+  margin-right: 25px;
 
 }
-  }
 
+li {
+  display: inline-block;
+  padding: 1%;
+}
+  
+  main, footer {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+  
+  
+  }
