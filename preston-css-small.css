@@ -81,13 +81,13 @@ nav a {
   color: #4F6D7A;
   text-decoration: none;
   padding: 1%;
-  font-size: 1.1 rem;
-
+  font-size: 1.1rem;
 }
 
 li {
   display: inline-block;
   padding: 1%;
+
 }
 h2 {
   font-size: 2.5em;
@@ -151,9 +151,7 @@ footer {
   text-align: center;
   color: #4F6D7A;
   padding: 15px 5px 15px;
-  width: 100%;
-  position: absolute;
-  
+  max-width: 100%;
 }
 
 footer a {
@@ -163,4 +161,3 @@ footer a {
 footer a:hover {
     color: #C0D6DF;
 }
-
