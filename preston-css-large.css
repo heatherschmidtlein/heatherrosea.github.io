@@ -8,13 +8,14 @@
   
   nav a {
 		font-size: 1.1rem;
-   
+    width: 50px;
 	}
 	main {
 		grid-template-columns: 1fr;
 	}
 nav {
   overflow: hidden;
+ 
 }
 
 nav a {
@@ -22,6 +23,7 @@ nav a {
   text-decoration: none;
   padding: 1%;
   font-size: 1rem;
+  margin-right: 25px;
 
 }
 
@@ -30,7 +32,10 @@ li {
   padding: 1%;
 }
   
+  main, footer {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+  
   
   }
-
-
