@@ -1,3 +1,4 @@
+// footer 
 
 const daynames = [
     "Sunday",
@@ -32,8 +33,17 @@ document.getElementById('date').textContent = todaydate;
 document.getElementById("year").innerHTML = d.getFullYear();
 
 
-//
+// banner
 
+
+if (dayName == "Friday") {
+    document.getElementById("friday-banner").style.display = "block";
+}
+else {
+    document.getElementById("friday-banner").style.display = "none";
+}
+
+// menu
 
 const hambutton = document.querySelector('.menu');
 const mainnav = document.querySelector('.navigation')
