@@ -97,7 +97,7 @@ p {
   
   /* WEATHER SUMMARY */
 
-#hero-img {
+.hero-img {
   width: 100%;
   margin-bottom: 5%;
 }
@@ -132,3 +132,5 @@ p {
   
   
   }
+
+
