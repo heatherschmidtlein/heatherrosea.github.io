@@ -1,0 +1,352 @@
+/** fonts **/
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+
+/* TABLE */
+
+table {
+	font-family: Ubuntu, sans-serif;
+  margin-left:auto; 
+  margin-right:auto;
+  margin-bottom: 5%;
+  text-align: center;
+  box-shadow: 5px 5px 10px #628ca6;
+  width: 305px;
+  height: 345px;
+  
+}
+
+thead {
+    font-size: 2em;
+}
+
+th {
+    padding: 3%;
+}
+
+tfoot td {
+  padding: 3%;
+  font-size: 0.8em;
+}
+
+thead, tfoot  {
+  background-color: #7fb9c2;
+}
+
+
+table, th, td {
+  border: 1px solid gray;
+  border-collapse: collapse;
+
+}
+
+tbody tr:first-child {
+  color: white;
+  background-color:#628ca6; 
+}
+
+
+tbody tr:nth-child(2){
+    background-color:#e7f0ed;
+}
+
+tbody tr:nth-child(3){
+    background-color:#e7ffed;
+}
+
+tbody tr:nth-child(4){
+    background-color:#e7f0ed;
+}
+
+tbody tr:nth-child(5){
+    background-color:#e7ffed;
+}
+
+tbody tr:nth-child(6){
+    background-color:#e7f0ed;
+}
+
+tbody tr:nth-child(7){
+    background-color:#e7ffed;
+}
+
+
+#nov-sale {
+    background-color:#628ca6; 
+    color: white;
+}
+
+/* TABLE */
+
+
+
+
+body {
+  background-color: #C0D6DF;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  color: #4F6D7A;
+  margin: 0 auto;
+  background: #F5F5F5;
+  display: flex;
+	flex-flow: column;
+	justify-content: center;
+
+}
+
+
+h1 {
+  font-size: 5em;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-weight:bold;
+  text-align: center;
+  color: #4F6D7A;
+}
+
+
+	main {
+		grid-template-columns: 1fr;
+	}
+
+nav ul {
+  list-style: none;
+
+}
+
+nav a:hover {
+    color: #EAA821;
+}
+
+.navigation a {
+    display: block;
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+    color: #4F6D7A;
+}
+
+
+nav {
+  background-color: #FCF0DA;
+   overflow: hidden;
+}
+
+nav a {
+  color: #4F6D7A;
+  text-decoration: none;
+  padding: 1%;
+  font-size: 1.1rem;
+}
+
+.active {
+  font-weight: bold;
+}
+
+li {
+  display: inline-block;
+  padding: 1%;
+
+}
+h2 {
+  font-size: 2.5em;
+}
+
+h2, h3 {
+  font-family: 'Pathway Gothic One', sans-serif;
+  color: #EAA821;
+  text-align: center;
+  font-weight: bold;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 3%;
+  text-align: center;
+  color: #4F6D7A;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1.2em;
+    padding: 5%;
+}
+
+section {
+  background-color: #F5F5F5;
+  width: 100%;
+  border-radius: 10px; 
+}
+
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+hr {
+  width: 70%;
+  border: 2px solid #4F6D7A;
+}
+
+
+footer {
+  background-color: #FCF0DA;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1em;
+  text-align: center;
+  color: #4F6D7A;
+  padding: 15px 5px 15px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer a {
+    color: #EAA821;
+}
+
+footer a:hover {
+    color: #C0D6DF;
+}
+
+
+
+/* Tablet Views ******************************/
+@media only screen and (max-width: 37.5em) {
+
+  
+  
+  .menu {
+
+}
+  
+
+.navigation {
+    list-style: none;
+
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+    margin-right: 9%;
+}
+  
+
+.navigation a {
+    display: block;
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+    color: #4F6D7A;
+    
+}
+
+.navigation a:active {
+    color: #4F6D7A;
+}
+  
+  
+  #catchphrase {
+    font-size: 1.3rem;
+    padding: 0;
+    
+}
+  
+.responsive li {
+	display: block;
+}
+  
+
+}
+  
+/* Tablet Views ******************************/
+@media only screen and (min-width: 37.5em) {
+ .menu {
+  margin-right: 8%;
+   display: none !important;
+} 
+  
+    
+  nav a {
+    width: 50px;
+    font-size: 0.9rem;
+    margin-right: 20px;
+  }
+  
+
+}
+
+  /* Desktop Views ****************************/
+@media only screen and (min-width: 60em) {
+ 
+.menu {
+    display: none !important;
+  }
+  
+  
+  nav a {
+		font-size: 1.1rem;
+    width: 50px;
+	}
+	main {
+		grid-template-columns: 1fr;
+	}
+nav {
+  overflow: hidden;
+ 
+}
+
+nav a {
+  color: #4F6D7A;
+  text-decoration: none;
+  padding: 1%;
+  font-size: 1rem;
+  margin-right: 25px;
+
+}
+
+li {
+  display: inline-block;
+  padding: 1%;
+}
+  
+  main, footer {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+  
+  
+
+  
+  
+  
+  }
+
+
