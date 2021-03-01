@@ -131,6 +131,42 @@ p {
 /* WEATHER SUMMARY */
   
   
+  
+  /* GALLERY */
+
+.weather-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gallery {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.gallery:hover {
+      box-shadow: 0 0 25px #4F6D7A;
+}
+
+figcaption {
+  text-align: center;
+  padding: 5%;
+  color: #4F6D7A;
+  font-size: 1.1em;
+}
+  
+  picture img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+picture img {
+    filter: blur(0em);
+    transition: filter 0.75s;
+  }
+
+/* GALLERY */
+  
+  
   }
 
 
