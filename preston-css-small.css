@@ -5,6 +5,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
 
+
+
+
 /* BANNER */
 #banner {
   background-color: #FCF0DA;
@@ -250,3 +253,39 @@ table, th, td {
   }
 
  /* 5 DAY FORECAST */
+
+
+
+  /* GALLERY */
+
+picture img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+picture img {
+    filter: blur(0em);
+    transition: filter 0.75s;
+  }
+
+
+.weather-gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.gallery {
+  width: 100%;
+  border-radius: 5px;
+}
+
+
+figcaption {
+  text-align: center;
+  padding: 5%;
+  color: #4F6D7A;
+  font-size: 1.1em;
+}
+
+/* GALLERY */
+
+
