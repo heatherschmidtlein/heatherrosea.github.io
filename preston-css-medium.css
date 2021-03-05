@@ -1,4 +1,119 @@
 /* Tablet Views ******************************/
+@media only screen and (max-width: 37.5em) {
+  
+  
+form fieldset {
+  width: 70%;
+}
+  
+
+  /* 5 DAY FORECAST */
+  
+  table {
+    width: 90%;
+    margin-left:auto; 
+    margin-right:auto;
+    margin-bottom: 5%;
+    font-size: 0.8em;
+  }
+  
+  td img {
+        width: 30%;
+    }
+/* 5 DAY FORECAST */
+  
+  
+  .menu {
+
+}
+  
+
+.navigation {
+    list-style: none;
+
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+    margin-right: 9%;
+}
+  
+
+.navigation a {
+    display: block;
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+    color: #4F6D7A;
+    
+}
+
+.navigation a:active {
+    color: #4F6D7A;
+}
+  
+  
+  #catchphrase {
+    font-size: 1.3rem;
+    padding: 0;
+    
+}
+  
+.responsive li {
+	display: block;
+}
+  
+/* ARTICLE */
+  #preston-snow {
+  width: 90%;
+  margin-bottom: 5%;
+}
+  #article-body p {
+    max-width: 90%;
+    text-align: center;
+    font-size: 1em;
+  }
+  
+  h3 {
+    max-width: 70%;
+  }
+  
+/* ARTICLE */
+
+  /* CONTACT */
+.map {
+  margin-right:auto; 
+  margin-left: 5%;
+  margin-bottom: 5%;
+  margin-top: 1%;
+  width: 90%;
+  }
+  
+  #contact-body p {
+  text-align: center;
+  line-height: 2em;
+    max-width: 90%;
+  }
+  
+
+/* CONTACT */
+  
+  
+  /* BANNER */
+
+#banner p {
+  padding: 4%;
+  max-width: 80%;
+  font-size: 0.9rem;
+}
+/* BANNER */
+}
+  
+/* Tablet Views ******************************/
 @media only screen and (min-width: 37.5em) {
  .menu {
   margin-right: 8%;
