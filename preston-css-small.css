@@ -5,136 +5,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
 
-  /* STORM REPORT */
-
-form fieldset {
-  background-color: #FCF0DA;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  border-radius: 10px;
-  border: 2px solid #C0D6DF;
-  padding: 2%;
-  margin-bottom: 2%;
-}
-
-form legend {
-  font-family: 'Pathway Gothic One', sans-serif;
-  font-size: 2em;
-  color: #4F6D7A;
-  padding-left: 1%;
-  padding-right: 1%;
-}
-
-form label.top {
-  font-family: 'Open Sans', sans-serif;
-  color: #4F6D7A;
-  font-weight: bold;
-}
-
-form label.top  {
-    display: block;
-    padding-top: 1rem;
-}
-
-form label.top input, form label.top select, textarea {
-    display: block;
-    font-size: .9rem;
-    border: solid 1px #C0D6DF;
-    border-radius: 10px;
-    padding: .75rem;
-    color: #555;
-    width: 100%;
-    max-width: 90%;
-    font-family: 'Open Sans', sans-serif;
-  
-}
-
-
-form label.side {
-    font-family: 'Open Sans', sans-serif;
-    color: #4F6D7A;
-}
-
-
-form input.submitBtn {
-    display: block;
-    border: none;
-    background-color: #4F6D7A;
-    color: white;
-    border-radius: 1rem;
-    padding: .75rem 1.5rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 5%;
-    margin-top: 2%;
-    width: 96%;
-    max-width: 20rem;
-}
-
-form input.submitBtn:hover {
-  display: block;
-  background-color: #FCF0DA;
-  color: #4F6D7A;
-  transition: 0.3s ease-out;
-
-}
-
-textarea {
-  height: 100px;
-}
-
-
-form label.top input:required {
-    border-left: #4F6D7A solid 6px;
-}
-
-form label.top input:required:valid {
-    border-left: #EAA821 solid 6px;
-}
-
-
-
-  /* STORM REPORT */
-
-
-
-
-
-  /* GALLERY */
-
-picture img[data-src] {
-    filter: blur(0.2em);
-  }
-  
-picture img {
-    filter: blur(0em);
-    transition: filter 0.75s;
-  }
-
-
-.weather-gallery {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
-.gallery {
-  width: 100%;
-  border-radius: 5px;
-}
-
-
-figcaption {
-  text-align: center;
-  padding: 5%;
-  color: #4F6D7A;
-  font-size: 1.1em;
-}
-
-/* GALLERY */
-
-
-
 /* BANNER */
 #banner {
   background-color: #FCF0DA;
@@ -150,13 +20,17 @@ figcaption {
 
 /* WEATHER SUMMARY */
 
-.hero-img {
+#hero-img {
   width: 100%;
-  margin-bottom: 5%;
+  border-radius: 10px;
 }
 
 .stats p {
   line-height: 2em;
+}
+
+.weather-summary {
+  background-color: #C0D6DF;
 }
 
 
@@ -257,13 +131,13 @@ h2, h3 {
   color: #EAA821;
   text-align: center;
   font-weight: bold;
-  max-width: 50%;
+  max-width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
 
 h3 {
-  font-size: 3em;
+  font-size: 2em;
 }
 
 p {
@@ -271,7 +145,7 @@ p {
   padding-bottom: 3%;
   text-align: center;
   color: #4F6D7A;
-  max-width: 50%;
+  max-width: 70%;
   margin-left: auto;
   margin-right: auto;
   
@@ -285,8 +159,11 @@ main {
 
 section {
   background-color: #F5F5F5;
-  width: 100%;
+  width: 70%;
   border-radius: 10px; 
+    margin-left: auto;
+  margin-right: auto;
+  
 }
 
 
@@ -314,6 +191,7 @@ footer {
   max-width: 90%;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 10px; 
 }
 
 footer a {
