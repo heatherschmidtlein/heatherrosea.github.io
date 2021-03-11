@@ -258,3 +258,9 @@ table, th, td {
   }
 
  /* 5 DAY FORECAST */
+
+  .cards img {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+  }
