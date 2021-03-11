@@ -97,9 +97,9 @@ p {
   
   /* WEATHER SUMMARY */
 
-.hero-img {
+#hero-img {
   width: 100%;
-  margin-bottom: 5%;
+  border-radius: 10px;
 }
 
 .stats {
@@ -131,46 +131,19 @@ p {
 /* WEATHER SUMMARY */
   
   
-  
-  /* GALLERY */
 
-.weather-gallery {
+/* CARDS */
+
+  
+  .cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-}
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+   }
 
-.gallery {
-  width: 100%;
-  border-radius: 5px;
-}
-
-.gallery:hover {
-      box-shadow: 0 0 25px #4F6D7A;
-}
-
-figcaption {
-  text-align: center;
-  padding: 5%;
-  color: #4F6D7A;
-  font-size: 1.1em;
-}
-  
-  picture img[data-src] {
-    filter: blur(0.2em);
-  }
-  
-picture img {
-    filter: blur(0em);
-    transition: filter 0.75s;
-  }
-
-/* GALLERY */
-  
-  
-  form fieldset {
-
-  width: 50%;
-}
+/* CARDS */
   
   
   
