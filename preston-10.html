@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Heather Schmidtlein WDD 230 Assignment Portal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Design Principles for Heather Schmidtlein in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="heatherrosea.github.io/normalize.css">
+  <link rel="stylesheet" type="text/css" href="forecastedsmall.css">
+  <link rel="stylesheet" type="text/css" href="forecastedmedium.css">
+  <link rel="stylesheet" type="text/css" href="forecastedlarge.css">      
+  <link rel="shortcut icon" href="https://cdn.glitch.com/b753ac26-8568-4b97-806e-2968b8866a27%2Ffavicon%20(3).ico?v=1602967366914">
+</head>
+  
+  <body>
+    
+    
+  <div id="friday-banner">
+  <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+  </div>
+
+  
+  <header>    
+    <img id="logo" alt="Forecasted logo" src="https://cdn.glitch.com/b753ac26-8568-4b97-806e-2968b8866a27%2Fcropped%20logo%20.png?v=1602298165717">
+    <p id="catchphrase">Breaking the weather down so you don't have to.</p>
+    
+    <nav class="navigation">
+      <ul>
+        <li><a class="menu" href="#">&#9776; Menu</a></li>
+        <li><a href="">Home</a></li>
+        <li class="active"><a href="">Preston</a></li>
+        <li><a href="">Soda Springs</a></li>
+        <li><a href="">Fish Haven</a></li>
+        <li><a href="">Storm Center</a></li>
+        <li><a href="">Gallery</a></li>
+      </ul>
+    </nav>
+    
+  </header>
+  
+  <main>
+    
+    
+    <section class="weather-summary">
+     <h3>PRESTON, IDAHO</h3>
+       <div class="herodiv">
+          <img id="hero-img" src="https://cdn.glitch.com/b753ac26-8568-4b97-806e-2968b8866a27%2Fhero.webp?v=1603134009746">
+      <section class="stats">
+       <h3 id="ws-h1">WEATHER SUMMARY</h3>
+         <p>Currently: <span id="currently"></span>
+         <br>Temperature: <span id="temperature"></span>&deg; F
+         <br>Humidity: <span id="humidity"></span>%
+         <br>Wind Speed: <span id="wind-speed"></span> MPH
+        <br>Wind Chill: <span id="wind-chill"></span></p>
+      </section>
+      </div>
+    </section>
+    
+   <section id="section-2">
+        <h3>5 DAY FORECAST</h3>
+          <div class="forecast">
+            <table>
+                <tr>
+                    <th><span id="dayofweek1"></span></th>
+                    <th><span id="dayofweek2"></span></th>
+                    <th><span id="dayofweek3"></span></th>
+                    <th><span id="dayofweek4"></span></th>
+                    <th><span id="dayofweek5"></span></th>
+                </tr>
+                <tr>
+                    <td><img src="https://cdn.glitch.com/b753ac26-8568-4b97-806e-2968b8866a27%2Ficonfinder_Cloudy_Sunny_5729392.png?v=1603149102939" alt="Cloudy Icon"></td>
+                    <td><img src="https://cdn.glitch.com/b753ac26-8568-4b97-806e-2968b8866a27%2Ficonfinder_Cloudy_Sunny_5729392.png?v=1603149102939" alt="Cloudy Icon"></td>
+                    <td><img src="https://cdn.glitch.com/b753ac26-8568-4b97-806e-2968b8866a27%2Ficonfinder_Cloudy_Sunny_5729392.png?v=1603149102939" alt="Cloudy Icon"></td>
+                    <td><img src="https://cdn.glitch.com/b753ac26-8568-4b97-806e-2968b8866a27%2Ficonfinder_Cloudy_Sunny_5729392.png?v=1603149102939" alt="Cloudy Icon"></td>
+                    <td><img src="https://cdn.glitch.com/b753ac26-8568-4b97-806e-2968b8866a27%2Ficonfinder_Cloudy_Sunny_5729392.png?v=1603149102939" alt="Cloudy Icon"></td>
+                </tr>
+                <tr>
+                    <td><span id="forecast1"></span>°F</td>
+                    <td><span id="forecast2"></span>°F</td>
+                    <td><span id="forecast3"></span>°F</td>
+                    <td><span id="forecast4"></span>°F</td>
+                    <td><span id="forecast5"></span>°F</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    
+    <section id="article">
+        <h3>UPCOMING EVENT: ST. PATTY'S DAY PICNIC IN THE PARK</h3>
+      <div id="article-body">    
+      <p>Join us for the annually held St. Patty's Day Picnic at Nature Park, featuring traditional Irish food, song, and dance. Tickets are $10 per person and include one meal and one entry into the Luck of the Irish Raffle. Prizes include gift baskets, cash, and gift cards to local restaurants and businesses. Proceeds from this event support the local Wildlife Foundation so come out and show your support!
+      <br><br><b>Learn More</b></p>
+      </div>
+        <div id="article-img">
+              <img id="preston-snow" src="https://cdn.glitch.com/677ff128-efa4-46b5-9579-d432d34d8523%2Fpicnic.jpg?v=1615423660313">
+              </div>
+  </section>
+    
+    <section id="contact">
+        <h3>CONTACT US</h3>
+      <div id="contact-body">
+           <p>123 Main St. Preston, ID
+            <br>forecasted@forecastedweather.com
+            <br>208-123-456<br>
+             <br>Find us on social media!<br>
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-google"></a></p>
+      </div>
+         <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.773853438026!2d-111.91534443111685!3d42.09974162639047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1603172620341!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </section>
+
+
+    </main>
+  
+  <footer> &copy; <span id="year"></span> | Forecasted | Attributions | Heather Schmidtlein
+  <br><span id="date"></span></footer> 
+ <script type="text/javascript" src="script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script type="text/javascript" src="windchill.js"></script>
+  <script type="text/javascript" src="lazyload.js"></script>
+  <script type="text/javascript" src="weatherapi.js"></script>
+
+</body>
+</html>  
