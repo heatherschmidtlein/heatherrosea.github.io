@@ -1,0 +1,51 @@
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&lang=en&appid=6efd870e4a59aec575c6b814bbf3d4f2";
+
+fetch(apiURL)
+  .then((response) => response.json())
+  .then((jsObject) => {
+    console.log(jsObject);
+  
+  document.getElementById('currently').textContent = jsObject.weather[0].description;
+  document.getElementById('temperature').textContent = jsObject.main.temp;
+  document.getElementById('humidity').textContent = jsObject.main.humidity;
+  document.getElementById('wind-speed').textContent = jsObject.wind.speed;
+
+  
+  });
+
+
+
+const apiFiveURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&lang=en&appid=6efd870e4a59aec575c6b814bbf3d4f2";
+
+fetch(apiFiveURL)
+  .then((response) => response.json())
+  .then((jsObject) => {
+  
+
+  let day = 0;
+  const dayofWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+
+  
+  const thefive = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
+
+  
+  thefive.forEach ( x => {
+  
+    let d = new Date (x.dt_txt);
+  
+    document.getElementById('dayofweek${day+1}').textContext = dayofWeek[d.getDay()];
+    document.getElementById('forecast${day+1}').textContext = Math.round(x.main.temp);
+
+  
+    day++;
+
+    
+  });
+  
+
+
+    
+  });
+
+
+
