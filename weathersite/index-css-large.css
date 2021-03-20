@@ -1,0 +1,148 @@
+ /* Desktop Views ****************************/
+@media only screen and (min-width: 60em) {
+ 
+.menu {
+    display: none !important;
+  }
+  
+  
+  nav a {
+		font-size: 1.1rem;
+    width: 50px;
+	}
+	main {
+		grid-template-columns: 1fr;
+	}
+nav {
+  overflow: hidden;
+ 
+}
+
+nav a {
+  color: #4F6D7A;
+  text-decoration: none;
+  padding: 1%;
+  font-size: 1rem;
+  margin-right: 25px;
+
+}
+
+li {
+  display: inline-block;
+  padding: 1%;
+}
+  
+  main, footer {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+  
+  
+ /* ARTICLE */
+
+#preston-article {
+  padding:2%;
+}
+
+#article-body {
+  padding-right: 5%;
+}
+
+
+#preston-snow {
+  float: right;
+  width: 40%;
+  margin-left:auto; 
+  margin-right: 5%;
+  margin-bottom: 5%;
+  margin-top: 1%;
+}
+
+
+#article p {
+  float: left;
+  text-align: left;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  font-size: 1.1em;
+}
+
+p {
+  max-width: 50%;
+}
+
+ /* ARTICLE */
+  
+  
+/* CONTACT */
+.map {
+  float: left;
+  margin-right:auto; 
+  margin-left: 5%;
+  margin-bottom: 5%;
+  margin-top: 1%;
+  width: 40%;
+  }
+  
+  #contact-body p {
+  float: right;
+  margin-right: 20%;
+  text-align: left;
+  line-height: 2.9em;
+  }
+  
+
+/* CONTACT */
+  
+  
+  /* WEATHER SUMMARY */
+
+#hero-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.stats {
+	position: absolute;
+	top: 35px;
+	left: 50px;
+	background: rgba(252, 240, 218, 0.87);
+  border-radius: 10px;
+	box-shadow: 0 0 10px #111;
+  max-width: 25%;
+  
+}
+  
+  
+  .stats p {
+    line-height: 2em;
+  }
+  
+  .stats p, .stats h3 {
+    max-width: 90%;
+  }
+
+.herodiv {
+  margin: 20px auto;
+  position: relative;
+}
+
+
+/* WEATHER SUMMARY */
+  
+  
+
+/* CARDS */
+
+  
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+   }
+  
+  /* CARDS */
+  
+  }
