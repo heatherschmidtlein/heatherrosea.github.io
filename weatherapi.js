@@ -33,8 +33,8 @@ fetch(apiFiveURL)
   
     let d = new Date (x.dt_txt);
   
-    document.getElementById('dayofweek${day+1}').textContext = dayofWeek[d.getDay()];
-    document.getElementById('forecast${day+1}').textContext = Math.round(x.main.temp);
+    document.getElementById(`dayofweek${day+1}`).textContent = dayofWeek[d.getDay()];
+    document.getElementById(`dayofweek${day+1}`).textContent = Math.round(x.main.temp);
 
   
     day++;
