@@ -278,5 +278,11 @@ table, th, td {
   border-bottom: 1.5px solid #EAA821;
 }
 
+.town-image {
+  padding-bottom: 5%;
+  border-radius: 10px; 
+}
+
+
 
 /*  TOWN SECTIONS */
