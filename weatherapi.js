@@ -36,6 +36,15 @@ fetch(apiFiveURL)
     document.getElementById(`dayofweek${day+1}`).textContent = dayofWeek[d.getDay()];
     document.getElementById(`forecast${day+1}`).textContent = Math.round(x.main.temp);
 
+    
+    
+    const imagesrc = 'https://openweathermap.org/img/w/' + cast.weather[0].icon + '.png';
+    const desc = cast.weather[0].description;
+    
+    document.getElementById(`icon${i + 1}`).setAttribute('src', imagesrc);  // get icon
+     document.getElementById(`icon${i + 1}`).setAttribute('alt', desc);
+    
+    
   
     day++;
 
