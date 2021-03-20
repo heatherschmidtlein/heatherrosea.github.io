@@ -5,6 +5,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
 
+
+
+
+
 /* BANNER */
 #banner {
   background-color: #FCF0DA;
@@ -265,3 +269,14 @@ table, th, td {
     margin-right: auto;
     margin-left: auto;
   }
+
+/*  TOWN SECTIONS */
+
+.town-motto {
+  font-weight:bold;
+  font-style:italic;
+  border-bottom: 1.5px solid #EAA821;
+}
+
+
+/*  TOWN SECTIONS */
