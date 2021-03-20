@@ -54,8 +54,8 @@ fetch(apiFiveURL)
 
     
     
-    const imagesrc = 'https://openweathermap.org/img/w/' + cast.weather[0].icon + '.png';
-    const desc = cast.weather[0].description;
+    const imagesrc = 'https://openweathermap.org/img/w/' + x.weather[0].icon + '.png';
+    const desc = x.weather[0].description;
     
     document.getElementById(`icon${day + 1}`).setAttribute('src', imagesrc); 
     document.getElementById(`icon${day + 1}`).setAttribute('alt', desc);
