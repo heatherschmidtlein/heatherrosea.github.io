@@ -145,4 +145,15 @@ p {
   
   /* CARDS */
   
+.card-section {
+  width: 85%;
+}
+  
+.town-h {
+  padding-top: 0%;
+}
+  
+  
   }
+
+
