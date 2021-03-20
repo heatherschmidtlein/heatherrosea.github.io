@@ -1,0 +1,51 @@
+/* Tablet Views ******************************/
+@media only screen and (min-width: 37.5em) {
+ .menu {
+  margin-right: 8%;
+   display: none !important;
+} 
+  
+    
+  nav a {
+    width: 50px;
+    font-size: 0.9rem;
+    margin-right: 20px;
+  }
+  
+/* ARTICLE */
+  #preston-snow {
+  width: 90%;
+  margin-bottom: 5%;
+}
+  
+  p {
+    max-width: 90%;
+    text-align: center;
+  }
+  
+  h3 {
+    max-width: 70%;
+  }
+
+/* ARTICLE */
+  
+  
+/* CONTACT */
+.map {
+  margin-right:auto; 
+  margin-left: 5%;
+  margin-bottom: 5%;
+  margin-top: 1%;
+  width: 90%;
+  }
+  
+  #contact-body p {
+  text-align: center;
+  line-height: 2.9em;
+    max-width: 90%;
+  }
+  
+
+/* CONTACT */
+
+}
