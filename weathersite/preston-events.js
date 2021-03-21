@@ -24,7 +24,7 @@ fetch(requestURL)
                card.appendChild(events2);
                card.appendChild(events3);
 
-           document.querySelector('div.events').appendChild(card);
+           document.querySelector('div.preston-events').appendChild(card);
              
             }
     }
