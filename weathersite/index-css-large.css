@@ -153,6 +153,12 @@ p {
   padding-top: 0%;
 }
   
+	
+form fieldset {
+
+  width: 50%;
+}
+  
   
   }
 
