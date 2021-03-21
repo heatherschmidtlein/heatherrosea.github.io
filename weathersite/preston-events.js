@@ -10,19 +10,19 @@ fetch(requestURL)
           for (let i = 0; i < towns.length; i++) {
             
             let card = document.createElement('section');
-            let event1 = document.createElement('p');
-            let event2 = document.createElement('p');
-            let event3 = document.createElement('p');
+            let events1 = document.createElement('p');
+            let events2 = document.createElement('p');
+            let events3 = document.createElement('p');
 
            if (towns[i].name == "Preston") {
              
-               event1.textContent = towns[i].events[0];
-               event2.textContent = towns[i].events[1];
-               event3.textContent = towns[i].events[2];
+               events1.textContent = towns[i].events[0];
+               events2.textContent = towns[i].events[1];
+               events3.textContent = towns[i].events[2];
 
-               card.appendChild(event1);
-               card.appendChild(event2);
-               card.appendChild(event3);
+               card.appendChild(events1);
+               card.appendChild(events2);
+               card.appendChild(events3);
 
            document.querySelector('div.events').appendChild(card);
              
