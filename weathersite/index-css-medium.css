@@ -1,6 +1,10 @@
 
 /* Tablet Views ******************************/
 @media only screen and (max-width: 37.5em) {
+	
+form fieldset {
+  width: 70%;
+}
 
   /* 5 DAY FORECAST */
   
