@@ -1,0 +1,313 @@
+body {
+    background-color: white;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;  
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Header, Title, and Catch */
+
+header {
+  background-color: #ffffff;
+  overflow: hidden;
+  
+}
+
+header .logo {
+  width: 3%;
+  padding: 1.5rem 3rem;
+  float: left;
+}
+
+
+#title {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-top: 1.5rem;
+  font-size:
+}
+
+#catchphrase {
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+
+
+/* Navigation */
+
+nav {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-size: 1.2rem;
+  width: 100%;
+  background-color: #c4dbad;
+
+}
+
+nav a, button a {
+  display: block;
+  padding: 0%;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  text-decoration: none;
+  padding: 1%;
+  font-size: 1.1rem;
+}
+
+nav ul {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+
+
+}
+
+nav a:hover, button:hover, .fa:hover {
+  transition: border-width 0.3s ease-out;
+  font-weight: bold;
+}
+
+nav a::after, button::after, .fa::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width .3s;
+}
+nav a:hover::after, button:hover::after, .fa:hover::after  {
+    width: 100%;
+}
+
+
+/* Section 1 */
+
+#section-1 {
+  width: 100%;
+}
+
+#hero-img, #contact-img{
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+
+.hero-text-box {
+  width: 45%;
+  max-width: 90%;
+  border: 2px solid black;
+  padding: 2%;
+  background-color: rgba(255,255,255, 0.7);
+  position: absolute;
+	top: 30%;
+  left: 10%;
+}
+
+
+.action {
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-align: right;
+  margin-right: 30px;
+}
+
+
+.button {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #c4dbad; 
+  border: none;
+  border-radius: 20px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.1rem;
+  font-style: italic;
+  float: right;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+/* Section 2 */
+
+#section-2 {
+  background-color: white;
+  width: 100%;
+}
+
+.section-head {
+  margin-left: 10%;
+  padding-top: 3%;
+  padding-bottom: 1%;
+  font-size: 2rem;
+}
+
+.event-title {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.event-time, .event-address {
+  font-style: italic;
+  font-weight: bold;
+}
+
+#event-img-1 {
+  position: absolute;
+  left: 10%;
+}
+
+
+.event-1, .event-2, .event-3 {
+  width: 17.5%;
+  max-width: 25%;
+  border: 2px solid black;
+  padding: 3%;
+  background-color: rgba(167,211,131, 0.1);
+  display: inline-block;
+  margin-bottom: 6%;
+}
+
+.event-1 {
+  margin-left: 10%;
+}
+
+.event-2 {
+  margin-left: 2%;
+}
+
+.event-3 {
+  margin-left: 2%;
+}
+
+.event-button {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #c4dbad; 
+  border: none;
+  border-radius: 20px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.1rem;
+  font-style: italic;
+  margin: 0 auto;
+  cursor: pointer;
+
+}
+
+/* Section 3 */
+
+#section-3 {
+  background-color: #c4dbad; 
+  width: 100%;
+  overflow: hidden;
+}
+
+.business {
+    background-color: #c4dbad; 
+
+}
+
+.left-img {
+  width: 24%;
+  float: left;
+  margin-left: 10%;
+}
+
+.right-img {
+  width: 24%;
+  float: right;
+  padding-right: 15%;
+}
+
+
+.business-description {
+  width: 45%;
+  max-width: 50%;
+  border: 2px solid black;
+  padding: 2% 2% 1%;
+  background-color: rgba(255,255,255, 0.7);
+  display: inline-block;
+  float: left;
+  margin-left: 2%;
+  margin-bottom: 4%;
+}
+
+.business-description-left {
+  width: 45%;
+  max-width: 50%;
+  border: 2px solid black;
+  padding: 2% 2% 1%;
+  background-color: rgba(255,255,255, 0.7);
+  display: inline-block;
+  float: right;
+  margin-right: 2%;
+  margin-bottom: 4%;
+}
+
+
+
+/* Section 4 */
+
+
+.forecast {
+  width: 10%;
+  max-width: 25%;
+  border: 2px solid black;
+  padding: 3%;
+  background-color: rgba(167,211,131, 0.1);
+  display: inline-block;
+  margin-bottom: 6%;
+}
+
+/* Section 5 */
+
+.contact-text-box {
+  position: absolute;
+  width: 45%;
+  max-width: 90%;
+  border: 2px solid black;
+  padding: 2%;
+  background-color: rgba(255,255,255, 0.7);
+	top: 450%;
+  left: 10%;
+}
+
+.fa {
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 30px;
+  width: 5%;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  background-color: #c4dbad; 
+  color: black;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.menu {
+    display: none !important;
+  }
+
+
+
+.nav li {
+  display: inline-block;
+  padding: 1% 1% 1% 0;
+
+}
