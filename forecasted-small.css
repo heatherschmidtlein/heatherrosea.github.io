@@ -5,6 +5,100 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
 
+  /* STORM REPORT */
+
+form fieldset {
+  background-color: #FCF0DA;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 10px;
+  border: 2px solid #C0D6DF;
+  padding: 2%;
+  margin-bottom: 2%;
+}
+
+form legend {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 2em;
+  color: #4F6D7A;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+form label.top {
+  font-family: 'Open Sans', sans-serif;
+  color: #4F6D7A;
+  font-weight: bold;
+}
+
+form label.top  {
+    display: block;
+    padding-top: 1rem;
+}
+
+form label.top input, form label.top select, textarea {
+    display: block;
+    font-size: .9rem;
+    border: solid 1px #C0D6DF;
+    border-radius: 10px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 90%;
+    font-family: 'Open Sans', sans-serif;
+  
+}
+
+
+form label.side {
+    font-family: 'Open Sans', sans-serif;
+    color: #4F6D7A;
+}
+
+
+form input.submitBtn {
+    display: block;
+    border: none;
+    background-color: #4F6D7A;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form input.submitBtn:hover {
+  display: block;
+  background-color: #FCF0DA;
+  color: #4F6D7A;
+  transition: 0.3s ease-out;
+
+}
+
+textarea {
+  height: 100px;
+}
+
+
+form label.top input:required {
+    border-left: #4F6D7A solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: #EAA821 solid 6px;
+}
+
+
+
+  /* STORM REPORT */
+
+
+
 
 
   /* GALLERY */
@@ -169,7 +263,7 @@ h2, h3 {
 }
 
 h3 {
-  font-size: 2em;
+  font-size: 3em;
 }
 
 p {
@@ -287,108 +381,3 @@ table, th, td {
 
  /* 5 DAY FORECAST */
 
-
-/* Tablet Views ******************************/
-@media only screen and (max-width: 37.5em) {
-
-  /* 5 DAY FORECAST */
-  
-  table {
-    width: 90%;
-    margin-left:auto; 
-    margin-right:auto;
-    margin-bottom: 5%;
-    font-size: 0.8em;
-  }
-  
-  td img {
-        width: 30%;
-    }
-/* 5 DAY FORECAST */
- 
-  
-
-.navigation {
-    list-style: none;
-
-}
-
-.navigation li:first-child {
-    display: block;
-}
-
-.navigation li {
-    display: none;
-    margin-right: 9%;
-}
-  
-
-.navigation a {
-    display: block;
-    padding: 1%;
-    text-align: center;
-    text-decoration: none;
-    color: #4F6D7A;
-    
-}
-
-.navigation a:active {
-    color: #4F6D7A;
-}
-  
-  
-  #catchphrase {
-    font-size: 1.3rem;
-    padding: 0;
-    
-}
-  
-.responsive li {
-	display: block;
-}
-  
-/* ARTICLE */
-  #preston-snow {
-  width: 90%;
-  margin-bottom: 5%;
-}
-  #article-body p {
-    max-width: 90%;
-    text-align: center;
-    font-size: 1em;
-  }
-  
-  h3 {
-    max-width: 70%;
-  }
-  
-/* ARTICLE */
-
-  /* CONTACT */
-.map {
-  margin-right:auto; 
-  margin-left: 5%;
-  margin-bottom: 5%;
-  margin-top: 1%;
-  width: 90%;
-  }
-  
-  #contact-body p {
-  text-align: center;
-  line-height: 2em;
-    max-width: 90%;
-  }
-  
-
-/* CONTACT */
-  
-  
-  /* BANNER */
-
-#banner p {
-  padding: 4%;
-  max-width: 80%;
-  font-size: 0.9rem;
-}
-/* BANNER */
-}
